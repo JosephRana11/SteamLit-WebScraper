@@ -2,6 +2,9 @@ import streamlit as st
 import requests
 from bs4 import BeautifulSoup
 import webbrowser
+import time
+
+st.set_page_config(page_title="Unsplash Web Scraper", page_icon='./favicon.png')
 
 def download_func():
   print('working')
